@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Scope+One&display=swap");
+
+body {
+  font-size: 14px;
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: "Scope One", serif;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2rem;
+}
+
+.hide {
+  display: none;
+  visibility: hidden;
+  height: 0;
+}
+
+.container {
+  width: 50vw;
+  margin: 150px auto;
+  .pin-code {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    input {
+      width: 40px;
+      height: 40px;
+      margin: 5px;
+      text-align: center;
+    }
+  }
+}
